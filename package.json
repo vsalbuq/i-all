@@ -1,0 +1,16 @@
+{
+  "name": "i-all",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "admin",
+    "mobile",
+    "modules/*",
+    "shared",
+    "core"
+  ],
+  "scripts": {
+    "web": "yarn workspace core start"
+  }
+}
